@@ -1,0 +1,8 @@
+TODO
+====
+
+* Glitch text, maybe in canvas with cutouts
+* Horiztonal image shift
+* More TV scanline look
+* RGB colour seperation
+
