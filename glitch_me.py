@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 from bottle import route, run, debug, template, static_file, response, request
 import urllib2
-import json
+import simplejson as json
 import re
 
 # "means to an end"
@@ -87,4 +87,5 @@ def index():
         storyList=sortedStories
     )
 
-run(host='localhost', port=9003,  reloader=True, debug=True)
+#run(host='localhost', port=9003,  reloader=True, debug=True)
+run(server='gae')
